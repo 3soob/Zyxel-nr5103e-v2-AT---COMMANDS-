@@ -1,0 +1,252 @@
+here a list of all AT-COMMANDS supported by the router :
+AT+CMEE: Enables or disables the display of error messages.
+AT+ESUO: Controls UART output settings.
+AT+CLAC: Lists all available AT commands.
+ATE: Echoes characters typed in the terminal (enables/disables command echo).
+ATQ: Suppresses result codes (e.g., OK, ERROR).
+ATV: Controls format of result codes (numeric or verbose).
+ATZ: Resets settings to defaults.
+AT+EMETACFG: Configures Meta (metadata) commands.
+AT+EMDVER: Queries or displays modem version info.
+AT+EURCRPT: Configures URC (Unsolicited Result Code) settings.
+AT+EIND: Controls indicator reporting for network status.
+AT+EURCALLOW: Allows specific URCs for applications.
+AT+CCLK: Sets or queries the real-time clock.
+AT&F: Restores factory default settings.
+AT+CMGD: Deletes SMS messages from storage.
+AT+CMGF: Selects SMS message format (text or PDU mode).
+AT+CMGS: Sends an SMS message.
+AT+CMGW: Stores an SMS message in the memory.
+AT+CMMS: Controls handling of more messages during sending/receiving SMS.
+AT+CNMA: Sends an acknowledgement for received SMS (in PDU mode).
+AT+CNMI: Configures how SMS notifications are handled.
+AT+CPMS: Selects memory storage for SMS.
+AT+CSAS: Saves current SMS service settings.
+AT+CSCA: Configures the SMS service center address.
+AT+CSMP: Sets SMS message parameters like validity, format, etc.
+AT+CSMS: Selects the SMS service to use (GSM, etc.).
+AT+EC2KCMGD: Deletes SMS messages for C2K (CDMA 2000).
+AT+EC2KCMGS: Sends SMS for C2K.
+AT+EC2KCMGW: Stores SMS for C2K in memory.
+AT+EC2KCNMA: Sends acknowledgment for C2K SMS.
+AT+EC2KCPMS: Selects C2K SMS memory storage.
+AT+EMETACFG: Broadcasts message read settings.
+AT+ECDSCNMA: DSDS (Dual SIM) message ackanowledgement settings.
+AT+ECSCB: Configures SMS cell broadcast messages.
+AT+ECSCBCFG: Configures cell broadcast settings.
+AT+ECSCBCHA: Defines cell broadcast message channel settings.
+AT+ECSCBLAN: Configures language for cell broadcast messages.
+AT+ECSCBSW: Enables/disables SMS cell broadcast.
+AT+EMEMS: Manages modem memory settings.
+AT+ETWS: Controls Earthquake and Tsunami Warning System messages.
+AT+CSCB: SMS cell broadcast service settings.
+AT+C5GUSMS: Sends SMS over 5G network.
+AT+CMSS: Sends SMS from storage.
+AT+EWIFIEN: Enables/disables Wi-Fi.
+AT+EAPMODE: Configures Wi-Fi AP mode settings.
+AT+EWIFIASC: Scans for Wi-Fi networks.
+AT+EWIFISIGLVL: Displays Wi-Fi signal level.
+AT+EIMSGEO: Configures IMS and geo-location settings.
+AT+EWIFIADDR: Configures Wi-Fi address settings.
+AT+EIMSAID: Displays IMS Application Identifier.
+AT+EWIFINATT: Configures Wi-Fi network attachment settings.
+AT+EIWLPING: Pings a device on the Wi-Fi network.
+AT+EAPNACT: Activates an APN.
+AT+EDALLOW: Controls Dual Access Allow settings.
+AT+ECNCFG: Configures carrier network settings.
+AT+CGACT: Controls activation of PDP context (data connection).
+AT+CGDCONT: Defines PDP context (data connection) parameters.
+AT+CGDSCONT: Configures additional data contexts.
+AT+EPDN: Manages packet data network settings.
+AT+EDRB: Configures enhanced DRB (data rate bearer).
+AT+EDRBSTATE: Shows current DRB state.
+AT+EIMSPDN: Configures IMS packet data network.
+AT+EIMSPDIS: IMS packet data service settings.
+AT+EIMSPCSCF: Configures IMS P-CSCF (Proxy Call Session Control Function).
+AT+ELCE: LTE carrier aggregation settings.
+AT+EFD: Enables fault diagnostics mode.
+AT+EXLCE: Extended LTE carrier aggregation settings.
+AT+EGTYPE: Configures LTE network type (4G, 5G, etc.).
+AT+EAPNSET: Sets the APN (Access Point Name).
+AT+EIAAPN: Configures IMS APN settings.
+AT+EAPNLOCK: Locks the APN settings.
+AT+EDRETRY: Sets data retry settings.
+AT+EIF: Interface configuration.
+AT+EGDATA: Configures GPRS data services.
+AT+VZWAPNE: Verizon-specific APN settings.
+AT+VZWAPNETMR: Verizon APN timer settings.
+AT+ECUSD: Configures and sends unstructured supplementary data.
+AT+CLIR: Configures calling line identification restriction.
+AT+CLIP: Enables/disables calling line identification presentation.
+AT+CSSN: Configures supplementary service notifications.
+AT+COLP: Configures connected line identification.
+AT+COLR: Configures connected line restriction.
+AT+EIUSD: Unstructured supplementary service data settings.
+AT+EXCAPUAS: Configures application services.
+AT+CUSD: Sends USSD messages.
+AT+CUSATE: Sets advanced SIM application toolkit (STK) settings.
+AT+STKTR: Sends STK terminal response.
+AT+STKCALL: Sends STK call.
+AT+STKSS: Sends STK supplementary service commands.
+AT+STKUSSD: Sends STK USSD commands.
+AT+STKSMS: Sends STK SMS.
+AT+STKDTMF: Sends STK DTMF (dual-tone multi-frequency) commands.
+AT+BIPCONF: Bearer independent protocol configuration.
+AT+EVADSMOD: Voice Activation Detection settings.
+AT+EVADSREP: Voice Activation Detection reporting settings.
+AT+CHLD: Call hold and multi-party management.
+AT+ECHLD: Enhanced call hold and multi-party management.
+AT+CLCC: Lists active calls.
+AT+CLCCS: Call control and status settings.
+ATD: Dials a number.
+ATA: Answers an incoming call.
+AT+ECFGSET: Configures general modem settings.
+AT+ECMOD: Configures modem mode.
+ATS: Sets serial port parameters.
+AT+CCWA: Configures call waiting.
+AT+CMUT: Mutes/unmutes the call.
+AT+ECPI: Call progress information settings.
+AT+EAIC: Alert indicator control settings.
+AT+EVOCD: Configures voice codec settings.
+AT+ECCP: Configures cellular connection settings.
+AT+CRC: Cellular result code settings.
+AT+CBST: Configures bearer service type.
+AT+ECCFC: Call forwarding settings.
+ATH: Terminates a call.
+AT+CRM: Cellular result mode settings.
+AT+VTS: Sends DTMF tones.
+AT+EVTS: Enhanced voice tone sending.
+AT+CTMCALL: Terminates all current calls.
+AT+ESVC: Configures voice service settings.
+AT+CFSH: Configures call forward settings.
+AT+ECONF: Conference call settings.
+AT+EDCONF: Enhanced conference call settings.
+AT+ECCTRL: Cellular control settings.
+AT+EVTA: Video telephony alert settings.
+AT+ECALLPULL: Pull call for emergency calls.
+AT+EMCS: Configures mobile call settings.
+AT+CDU: Displays call details.
+AT+ECIMI: Displays the IMSI (International Mobile Subscriber Identity).
+AT+EUIMCFG: Configures UIM settings.
+AT+ECSTQ: Configures status queue settings.
+AT+ECLCK: Configures SIM lock settings.
+AT+ETESTSIM: Tests SIM card functionality.
+AT+ESSTQ: Configures supplementary service status queue.
+AT+ESIMAPP: SIM application toolkit settings.
+AT+ECRLA: Configures SIM access relay settings.
+AT+ESIMAUTH: Configures SIM authentication settings.
+AT+EAUTH: Authentication settings for network access.
+AT+CGLA: SIM access (sends generic APDU to the SIM).
+AT+ICCID: Retrieves the SIM’s ICCID (SIM card number).
+AT+CPIN: Manages SIM PIN code.
+AT+CRLA: SIM relay access.
+AT+ESMLCK: SIM lock/unlock settings.
+AT+ESIMINFO: Retrieves SIM information.
+AT+EBTSAP: Bluetooth SIM access profile settings.
+AT+ECUAD: UAD (User Authentication Data) settings.
+AT+ESLBLOB: SIM lock blob settings.
+AT+EPINC: Configures PIN code settings.
+AT+EPIN2: Manages second PIN code (PIN2) settings.
+AT+EPIN1: Manages first PIN code (PIN1) settings.
+AT+CPWD: Changes PIN/password for the SIM.
+AT+ESIMPOWER: Powers SIM card on/off.
+AT+ESIMS: SIM status reporting.
+AT+EMSLU: Manages SIM lock/unlock operations.
+AT+EMSAIL: SIM and application interface settings.
+AT+EMEVT: Manages event reporting for the SIM.
+AT+EMSRV: Configures SIM service settings.
+AT+EMPRI: Configures SIM priority.
+AT+EMBIND: Binds a SIM to specific operations.
+AT+EMSEN: SIM enabled/disabled settings.
+AT+EMSESSCFG: Session management settings for the SIM.
+AT+EMSESS: Configures SIM session settings.
+AT+EMTSI: SIM timing settings.
+AT+ESBP: Baseband processing settings.
+AT+CPBS: Selects the phonebook storage.
+AT+CPBR: Reads phonebook entries.
+AT+EPBUM: Manages phonebook update messages.
+AT+EPBW: Manages phonebook writing settings.
+AT+ECSRA: Configures SIM resource allocation settings.
+AT+CSRA: Cellular resource allocation settings.
+AT+CSRAA: Advanced cellular resource allocation.
+AT+EWMPOLICY: Configures wireless modem policy.
+AT+EFUN: Sets modem functionality level.
+AT+CFUN: Configures the functionality of the modem (e.g., full, minimum, airplane mode).
+AT+EPON: Enables/disables modem power.
+AT+CMER: Configures mobile equipment reporting.
+AT+EPOC: Power on/off control.
+AT+ESADM: Service Access Data Management settings.
+AT+EBOOT: Reboots the modem.
+AT+EDSBP: Data service bearer profile settings.
+AT+EGTP: Configures GTP (GPRS Tunneling Protocol).
+AT+EMPPCH: Configures paging settings for the modem.
+AT+EAPVSIM: Configures virtual SIM settings.
+AT+ERSIMAKA: Configures SIM authentication via AKA (Authentication and Key Agreement).
+AT+EINFO: Retrieves modem information.
+AT+CGSN: Retrieves modem serial number (IMEI).
+AT+GSN: Retrieves modem serial number (IMEI).
+AT^MEID: Retrieves modem MEID (Mobile Equipment Identifier).
+AT+CCHO: Selects a UICC application.
+AT+EGMR: Configures modem hardware settings.
+AT+ETHERMAL: Configures thermal protection settings.
+AT+EPCT: Configures packet call timers.
+AT+TXPWRSTUS: Configures transmit power settings.
+AT+CREG: Network registration status (GSM).
+AT+CGREG: Network registration status (GPRS).
+AT+CEREG: Network registration status (LTE).
+AT+EREG: Enhanced network registration settings.
+AT+EGREG: Network registration status (5G).
+AT+PSBEARER: Configures packet switched bearer settings.
+AT+ECSQ: Displays signal quality.
+AT+CTZR: Configures time zone reporting.
+AT+ECSG: Configures serving gateway settings.
+AT+EFCELL: Configures cell information reporting.
+AT+ECELL: Configures and queries cell information.
+AT+EONS: Enables Operator Name String display.
+AT+EOPS: Operator-specific settings.
+AT+COPS: Selects mobile network operator.
+AT+ECAL: Configures modem calibration settings.
+AT+EDRAT: Configures data rate settings.
+AT+EMODCFG: Modem configuration settings.
+AT+ECREG: Enhanced cellular registration settings.
+AT+ECGREG: Enhanced GPRS registration settings.
+AT+CIREG: Configures and queries network registration status (5G).
+AT+ECEREG: Configures enhanced cellular registration status (5G).
+AT+EREGINFO: Retrieves network registration information.
+AT+EIPRL: Retrieves PRL (Preferred Roaming List) info.
+AT+EDEFROAM: Configures default roaming settings.
+AT+EPBSE: Configures packet-based services.
+AT+ENBR: Configures narrowband radio settings.
+AT+CPOL: Preferred operator list settings.
+AT$ROAM: Roaming status settings.
+AT+EFSS: File system settings.
+AT+ERFTX: Radio frequency transmission settings.
+AT+ESRVSTATE: Network service state settings.
+AT+EAPC: Configures APN control.
+AT+EROAMBAR: Configures roaming barring settings.
+AT+CAPL: Configures allowed PLMN (Public Land Mobile Network).
+AT+ERAT: Configures RAT (Radio Access Technology).
+AT+EGMSS: Configures GMS settings.
+AT+ERPRAT: Configures preferred RAT settings.
+AT+CSCON: Configures signaling connection settings.
+AT+C5GREG: Configures 5G registration status.
+AT+EMCCALLOW: Configures mobile country code allowance settings.
+AT+E5GOPT: Configures 5G optimization settings.
+AT+C5GPNSSAI: Configures 5G slice assistance information.
+AT+C5GNSSAI: Configures 5G slice selection assistance information.
+AT+C5GNSSAIRDP: Configures 5G slice selection for RDP.
+T: Configures IMS settings.
+AT+QTEMP: AT command used to query the temperature
+
+*To change IMEI*
+
+AT+EGMR=1,7,"UR IMEI"
+AT+CGSN To confirm the new IMEI
+
+*On|Off cellular states*
+
+AT+CFUN=0 -off 
+AT+CFUN=1 -on
+
+
+cridtes to https://t.me/IbrahimAlassiri
